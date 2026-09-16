@@ -6,9 +6,15 @@
 
 ## Desafíos
 
-| Desafío | Notebook |
-|---|---|
-| 1 | [Desafio_1_Gabriela_Di_Grazia.ipynb](Desafio_1_Gabriela_Di_Grazia.ipynb) |
-| 2 | Pendiente |
-| 3 | Pendiente |
-| 4 | Pendiente |
+| Desafío | Tema | Notebook |
+|---|---|---|
+| 1 | Vectores de documentos (TF-IDF / Naive Bayes) | [Desafio_1_Gabriela_Di_Grazia.ipynb](Desafio_1_Gabriela_Di_Grazia.ipynb) |
+| 2 | Custom embeddings con Gensim | [Desafio_2_Gabriela_Di_Grazia.ipynb](Desafio_2_Gabriela_Di_Grazia.ipynb) |
+| 3 | Pendiente | — |
+| 4 | Pendiente | — |
+
+## Desafío 2
+
+Embeddings de palabras con **Word2Vec (Skip-gram, Gensim)** sobre un corpus propio: *Pride and Prejudice* (Jane Austen) desde [Project Gutenberg](https://www.gutenberg.org/ebooks/1342).
+
+La notebook incluye el ejemplo de clase (canciones) y la resolución: limpieza del libro, entrenamiento, términos más y menos similares, reducción a 2D con t-SNE (`MAX_WORDS = 80`) e inspección de grupos (personajes, familia, matrimonio).
